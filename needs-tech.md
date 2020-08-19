@@ -11,4 +11,4 @@ Scenario: Reconcile counts if the sensor is offline for a while
 
   Given (Sensor for entry-card issuer is not working properly)
   When  (patient enters)
-  Then  (go to previously saved count on database AND increment by one)
+  Then  (go to previous saved count on database AND increment by one)

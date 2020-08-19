@@ -8,6 +8,6 @@ Scenario: Show patient visits during working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
-  Given  ( Sensor for i
-  When
-  Then
+  Given  ( Sensor for hospital staff attendance system works properly )
+  When   ( Before specialists visits the hospital )
+  Then   ( Reserve the parking slot for specialists )

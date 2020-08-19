@@ -3,12 +3,12 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given
-  When
-  Then
+  Given (Sensor for entry-card issuer is not working properly)
+  When  (patient enters)
+  Then  (Use SQL Server Management Studio to recover the visit-counter)
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given
-  When
-  Then
+  Given (Sensor for entry-card issuer is not working properly)
+  When  (patient enters)
+  Then  (go to previously saved count on database AND increment by one)

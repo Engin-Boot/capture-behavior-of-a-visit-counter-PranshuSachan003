@@ -4,7 +4,7 @@ Scenario: Show patient visits during working days and holidays
 
   Given (Sensor for entry-card issuer works properly)
   When  (person enters)
-  Then  (Sensor identifies the patient and increaments the visit-counter by one)
+  Then  (Sensor identifies the patient AND increaments the visit-counter by one)
 
 Scenario: Compute parking slots to reserve for visiting specialists
 

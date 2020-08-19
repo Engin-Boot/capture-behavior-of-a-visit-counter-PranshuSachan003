@@ -2,9 +2,9 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given ( Sensor for issusing entry card works properly )
+  Given ( Sensor for entry-card issuer works properly )
   When  ( person enters )
-  Then  ( Now sensor identifies patient and increament the visit-counter by one)
+  Then  ( Now sensor identify patient and increament the visit-counter by one)
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
